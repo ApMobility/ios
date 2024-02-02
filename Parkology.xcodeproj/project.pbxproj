@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F41199D32B69557100BEB1DF /* ParkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41199D22B69557100BEB1DF /* ParkResponse.swift */; };
+		F41199D52B69558000BEB1DF /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41199D42B69558000BEB1DF /* Park.swift */; };
+		F41199D82B69566100BEB1DF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41199D72B69566100BEB1DF /* MainView.swift */; };
+		F41199DA2B69568500BEB1DF /* ParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41199D92B69568500BEB1DF /* ParksView.swift */; };
+		F41199DD2B6956BC00BEB1DF /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41199DC2B6956BC00BEB1DF /* FavouritesView.swift */; };
+		F41199E12B695A4500BEB1DF /* ParksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41199E02B695A4500BEB1DF /* ParksViewModel.swift */; };
+		F41199E32B695CF300BEB1DF /* ParkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41199E22B695CF300BEB1DF /* ParkRowView.swift */; };
+		F41199E52B69666300BEB1DF /* ParkDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41199E42B69666300BEB1DF /* ParkDetails.storyboard */; };
+		F41199E82B69668400BEB1DF /* ParkDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41199E72B69668400BEB1DF /* ParkDetailsViewController.swift */; };
+		F41199EA2B6966A300BEB1DF /* ParkDetailsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41199E92B6966A300BEB1DF /* ParkDetailsWrapper.swift */; };
+		F42CAC0B2B691D2400DA1E79 /* ParkologyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CAC0A2B691D2400DA1E79 /* ParkologyApp.swift */; };
+		F42CAC0F2B691D2800DA1E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42CAC0E2B691D2800DA1E79 /* Assets.xcassets */; };
+		F42CAC122B691D2800DA1E79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42CAC112B691D2800DA1E79 /* Preview Assets.xcassets */; };
+		F42CAC192B69216000DA1E79 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CAC182B69216000DA1E79 /* Network.swift */; };
+		F42CAC1C2B69285B00DA1E79 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CAC1B2B69285B00DA1E79 /* NetworkService.swift */; };
+		F42CAC1F2B69297F00DA1E79 /* ParkRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CAC1E2B69297F00DA1E79 /* ParkRepository.swift */; };
+		F43781332B6A66DA006BC624 /* UIImageView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43781322B6A66DA006BC624 /* UIImageView+Load.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F41199D22B69557100BEB1DF /* ParkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkResponse.swift; sourceTree = "<group>"; };
+		F41199D42B69558000BEB1DF /* Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		F41199D72B69566100BEB1DF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F41199D92B69568500BEB1DF /* ParksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksView.swift; sourceTree = "<group>"; };
+		F41199DC2B6956BC00BEB1DF /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		F41199E02B695A4500BEB1DF /* ParksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksViewModel.swift; sourceTree = "<group>"; };
+		F41199E22B695CF300BEB1DF /* ParkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkRowView.swift; sourceTree = "<group>"; };
+		F41199E42B69666300BEB1DF /* ParkDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ParkDetails.storyboard; sourceTree = "<group>"; };
+		F41199E72B69668400BEB1DF /* ParkDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailsViewController.swift; sourceTree = "<group>"; };
+		F41199E92B6966A300BEB1DF /* ParkDetailsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailsWrapper.swift; sourceTree = "<group>"; };
+		F42CAC072B691D2400DA1E79 /* Parkology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parkology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42CAC0A2B691D2400DA1E79 /* ParkologyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkologyApp.swift; sourceTree = "<group>"; };
+		F42CAC0E2B691D2800DA1E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42CAC112B691D2800DA1E79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F42CAC182B69216000DA1E79 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F42CAC1B2B69285B00DA1E79 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F42CAC1E2B69297F00DA1E79 /* ParkRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkRepository.swift; sourceTree = "<group>"; };
+		F43781322B6A66DA006BC624 /* UIImageView+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Load.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42CAC042B691D2400DA1E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F41199D62B69559200BEB1DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F41199D42B69558000BEB1DF /* Park.swift */,
+				F41199D22B69557100BEB1DF /* ParkResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F41199DB2B69569C00BEB1DF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F41199D72B69566100BEB1DF /* MainView.swift */,
+				F43781342B6A66E7006BC624 /* Extensions */,
+				F41199DF2B69571800BEB1DF /* Favourites */,
+				F41199DE2B69570D00BEB1DF /* Parks */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F41199DE2B69570D00BEB1DF /* Parks */ = {
+			isa = PBXGroup;
+			children = (
+				F41199D92B69568500BEB1DF /* ParksView.swift */,
+				F41199E22B695CF300BEB1DF /* ParkRowView.swift */,
+				F41199E02B695A4500BEB1DF /* ParksViewModel.swift */,
+				F41199E62B69666900BEB1DF /* Details */,
+			);
+			path = Parks;
+			sourceTree = "<group>";
+		};
+		F41199DF2B69571800BEB1DF /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				F41199DC2B6956BC00BEB1DF /* FavouritesView.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		F41199E62B69666900BEB1DF /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				F41199E42B69666300BEB1DF /* ParkDetails.storyboard */,
+				F41199E72B69668400BEB1DF /* ParkDetailsViewController.swift */,
+				F41199E92B6966A300BEB1DF /* ParkDetailsWrapper.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		F42CABFE2B691D2400DA1E79 = {
+			isa = PBXGroup;
+			children = (
+				F42CAC092B691D2400DA1E79 /* Parkology */,
+				F42CAC082B691D2400DA1E79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42CAC082B691D2400DA1E79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42CAC072B691D2400DA1E79 /* Parkology.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42CAC092B691D2400DA1E79 /* Parkology */ = {
+			isa = PBXGroup;
+			children = (
+				F42CAC0A2B691D2400DA1E79 /* ParkologyApp.swift */,
+				F42CAC0E2B691D2800DA1E79 /* Assets.xcassets */,
+				F42CAC1D2B69297500DA1E79 /* Data */,
+				F42CAC102B691D2800DA1E79 /* Preview Content */,
+				F41199DB2B69569C00BEB1DF /* UI */,
+			);
+			path = Parkology;
+			sourceTree = "<group>";
+		};
+		F42CAC102B691D2800DA1E79 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F42CAC112B691D2800DA1E79 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F42CAC1A2B69216300DA1E79 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F42CAC182B69216000DA1E79 /* Network.swift */,
+				F42CAC1B2B69285B00DA1E79 /* NetworkService.swift */,
+				F41199D62B69559200BEB1DF /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F42CAC1D2B69297500DA1E79 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F42CAC1E2B69297F00DA1E79 /* ParkRepository.swift */,
+				F42CAC1A2B69216300DA1E79 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F43781342B6A66E7006BC624 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F43781322B6A66DA006BC624 /* UIImageView+Load.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42CAC062B691D2400DA1E79 /* Parkology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42CAC152B691D2800DA1E79 /* Build configuration list for PBXNativeTarget "Parkology" */;
+			buildPhases = (
+				F42CAC032B691D2400DA1E79 /* Sources */,
+				F42CAC042B691D2400DA1E79 /* Frameworks */,
+				F42CAC052B691D2400DA1E79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parkology;
+			productName = Parkology;
+			productReference = F42CAC072B691D2400DA1E79 /* Parkology.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42CABFF2B691D2400DA1E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F42CAC062B691D2400DA1E79 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F42CAC022B691D2400DA1E79 /* Build configuration list for PBXProject "Parkology" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F42CABFE2B691D2400DA1E79;
+			productRefGroup = F42CAC082B691D2400DA1E79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42CAC062B691D2400DA1E79 /* Parkology */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42CAC052B691D2400DA1E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42CAC122B691D2800DA1E79 /* Preview Assets.xcassets in Resources */,
+				F42CAC0F2B691D2800DA1E79 /* Assets.xcassets in Resources */,
+				F41199E52B69666300BEB1DF /* ParkDetails.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42CAC032B691D2400DA1E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43781332B6A66DA006BC624 /* UIImageView+Load.swift in Sources */,
+				F41199D82B69566100BEB1DF /* MainView.swift in Sources */,
+				F41199E82B69668400BEB1DF /* ParkDetailsViewController.swift in Sources */,
+				F41199DD2B6956BC00BEB1DF /* FavouritesView.swift in Sources */,
+				F41199E32B695CF300BEB1DF /* ParkRowView.swift in Sources */,
+				F41199D52B69558000BEB1DF /* Park.swift in Sources */,
+				F42CAC0B2B691D2400DA1E79 /* ParkologyApp.swift in Sources */,
+				F41199EA2B6966A300BEB1DF /* ParkDetailsWrapper.swift in Sources */,
+				F42CAC1C2B69285B00DA1E79 /* NetworkService.swift in Sources */,
+				F42CAC1F2B69297F00DA1E79 /* ParkRepository.swift in Sources */,
+				F41199E12B695A4500BEB1DF /* ParksViewModel.swift in Sources */,
+				F41199D32B69557100BEB1DF /* ParkResponse.swift in Sources */,
+				F41199DA2B69568500BEB1DF /* ParksView.swift in Sources */,
+				F42CAC192B69216000DA1E79 /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F42CAC132B691D2800DA1E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F42CAC142B691D2800DA1E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42CAC162B691D2800DA1E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Parkology/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autopay.mobility.Parkology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F42CAC172B691D2800DA1E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Parkology/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autopay.mobility.Parkology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42CAC022B691D2400DA1E79 /* Build configuration list for PBXProject "Parkology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42CAC132B691D2800DA1E79 /* Debug */,
+				F42CAC142B691D2800DA1E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42CAC152B691D2800DA1E79 /* Build configuration list for PBXNativeTarget "Parkology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42CAC162B691D2800DA1E79 /* Debug */,
+				F42CAC172B691D2800DA1E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42CABFF2B691D2400DA1E79 /* Project object */;
+}
